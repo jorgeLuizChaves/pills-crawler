@@ -1,0 +1,9 @@
+version: '2.0'
+services:
+   nats-streaming:
+     container_name: nats-streaming
+     image: nats-streaming
+     ports:
+       - "4222:4222"
+       - "8222:8222"
+       - "6222:6222"
